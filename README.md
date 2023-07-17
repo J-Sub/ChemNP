@@ -76,5 +76,4 @@ time python3 source/0_4_HitDiscovery.py -n ${sPath}${dCompoundCutoff}/NP_${dSeed
 
 ```
 ./exe.sh 0.85
-
 ```
