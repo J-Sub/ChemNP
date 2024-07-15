@@ -1,6 +1,6 @@
 # ChemNP
 
-## Preprocessing for Candidate Compounds with a Target (Getting 14 Fingerprints and Their Similarity)
+## Preprocessing for candidate compounds with a target (Getting 14 fingerprints and their similarity)
 
 The following preprocessing steps are performed for candidate compounds with a target (CLK1):
   
@@ -12,7 +12,7 @@ time python3 source/0_1_makeFP.py -t data/CLK1.csv -a data/bindingDB_CLK1.csv -c
 
 ```
 
-## Network Construction
+## Network construction
 
 The following steps are performed for network construction:
 
@@ -32,7 +32,7 @@ time python3 source/0_2_makeNetwork.py -i ${sPath} -c ${dCompoundCutoff} -e ${dE
 
 ```
 
-## Network Propagation
+## Network propagation
 
 The following steps are performed for network propagation:
 
@@ -53,7 +53,7 @@ done
 
 ```
 
-## Network Analysis
+## Network analysis
 
 In this final step, network analysis is performed on the propagated network.
 
