@@ -4,7 +4,9 @@
 
 The following preprocessing steps are performed for candidate compounds with a target (CLK1):
   
-1. **Make Fingerprints**: This step involves generating 14 fingerprints for the candidate compounds using the provided compound file (`data/CLK1.csv`), seed file (`data/bindingDB_CLK1.csv`), compound cutoff (`0.7`), output path (`result/CLK1/`), and performing fingerprint generation in parallel.  
+1. **Make Fingerprints**: This step involves generating 14 fingerprints for the candidate compounds using the provided compound file (`data/CLK1.csv`), seed file (`data/bindingDB_CLK1.csv`), compound cutoff (`0.7`), output path (`result/CLK1/`), and performing fingerprint generation in parallel.
+
+> **Note:** On a 16 core cpu workstation, fingerprint processing for ~40,000 compounds (cutoff ≥ 0.85) typically takes around **1.9 hours**.
 
 ```bash
 
